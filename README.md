@@ -2,7 +2,7 @@
 
 This MATLAB package is a major re-write of the original UCL QCM algorithm that reconstructs the electrical conductivity map from (unwrapped) MR transmit/transceive phase acquired by various pulse sequences. 
 
-This UCL MR-EPT (v2.3) package supports different phase-based methods that are conceptually consistent with the initial work of: [Karsa A and Shmueli K. 2021. ISMRM. Abstract 3774]. This implementation should produce improved conductivity maps with greater consistency across various MRI pulse sequences. Compared with the A. Karsa's implementation, it has the following % main new features:
+This UCL MR-EPT (v2.3) package supports different phase-based methods that are conceptually consistent with the initial work of: [Karsa A and Shmueli K. 2021. ISMRM. Abstract 3774]. This implementation should produce improved conductivity maps with greater consistency across various MRI pulse sequences. Compared with the A. Karsa's implementation, it has the following new features:
 
 - Accelerated reconstruction even without Parallel Computing Toolbox
 - Support 2D EPT/conductivity reconstruction
